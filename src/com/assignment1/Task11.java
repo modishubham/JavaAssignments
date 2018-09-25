@@ -2,6 +2,9 @@
 package com.assignment1;
 
 class Bank {
+    public void getDetails() {
+        System.out.println("There are three banks ICCI BOI & SBI");
+    }
     class ICICI {
         public void getDetails() {
             System.out.println("ICICI rate of interest 8%");
@@ -25,6 +28,7 @@ class Task11 {
         Bank.ICICI ob1 = obj.new ICICI();
         Bank.SBI ob2 = obj.new SBI();
         Bank.BOI ob3 = obj.new BOI();
+        obj.getDetails();
         ob1.getDetails();
         ob2.getDetails();
         ob3.getDetails();
