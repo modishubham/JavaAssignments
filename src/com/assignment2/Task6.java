@@ -1,3 +1,4 @@
+// WAP showing try, multi-catch and finally blocks.
 package com.assignment2;
 
 public class Task6 {

@@ -1,3 +1,5 @@
+// WAP to create singleton class.
+
 package com.assignment2;
 
 public class MySingleton {

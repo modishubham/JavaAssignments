@@ -1,3 +1,5 @@
+// WAP to show object cloning in java using cloneable and copy constructor both.
+
 package com.assignment2;
 
 class Data implements Cloneable {
